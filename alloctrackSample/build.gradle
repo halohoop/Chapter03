@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
+    ndkVersion "21.2.6472646"
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.dodola.alloctrack"
